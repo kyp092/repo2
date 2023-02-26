@@ -1,0 +1,117 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.App-header {
+  background-color: #476092;
+  min-height: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(40px + 2vmin);
+  color: white;
+}
+.App-body {
+  background-color: #a5bdee;
+  min-height: 20vh;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(30px + 2vmin);
+  color: rgb(217, 144, 144);
+}
+
+.Signup-body {
+
+  background-color: #12e3ce;
+  
+  height: fit-content;
+  width: fit-content;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(30px + 2vmin);
+  color: rgb(217, 144, 144);
+}
+
+.Login-body {
+
+  background-color: #12e3ce;
+  min-height: 60%;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(30px + 2vmin);
+  color: rgb(217, 144, 144);
+}
+
+.Signupbutton {
+
+  color: rgb(204, 194, 89);
+
+}
+
+.Loginbutton {
+
+  color: rgb(204, 194, 89);
+
+}
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+/* Event poster container */
+/* Container needed to position the button. Adjust the width as needed */
+.container {
+  position: relative;
+  width: 30%;
+  height: 30%;
+}
+
+/* Make the image responsive */
+.container img {
+  width: 30%;
+  height: 30%;
+  image-resolution: 100%;
+}
+
+
+.container .btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 25px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.container .btn:hover {
+  background-color: black;
+}
